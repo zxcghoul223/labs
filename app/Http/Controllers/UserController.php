@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class BladeTaskController extends Controller
+class UserController extends Controller
 {
     public function n1()
     {
