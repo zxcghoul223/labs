@@ -161,4 +161,81 @@ class UserController extends Controller
         $strings = ['яблоко', 'банан', 'апельсин', 'виноград'];
         return view('user.23', compact('strings'));
     }
+    public function n24()
+    {
+        $numbers = [1,2,3,4,5,6,7,8,9,10];
+        return view('user.24', compact('numbers'));
+    }
+    public function n25()
+    {
+        $data = [1,2,3,4,5];  // поменяйте на число, например 42, для проверки
+        return view('user.25', compact('data'));
+    }
+    public function n26()
+    {
+        $matrix = [
+            [1,2,3],
+            [4,5,6],
+            [7,8,9]
+            ];
+        return view('user.26', compact('matrix'));
+    }
+
+    public function n27()
+    {
+    $employees = [
+        ['name' => 'user1', 'surname' => 'surname1', 'salary' => 1000],
+        ['name' => 'user2', 'surname' => 'surname2', 'salary' => 2000],
+        ['name' => 'user3', 'surname' => 'surname3', 'salary' => 3000],
+        ];
+        return view('user.27', compact('employees'));
+    }
+    public function n28()
+    {
+        $employees = [
+            ['name' => 'user1', 'surname' => 'surname1', 'salary' => 1000],
+            ['name' => 'user2', 'surname' => 'surname2', 'salary' => 2000],
+            ['name' => 'user3', 'surname' => 'surname3', 'salary' => 3000],
+    ];
+        return view('user.28', compact('employees'));
+    }
+    public function n29()
+    {
+        $users = ['Иван', 'Петр', 'Сергей'];  
+        return view('user.29', compact('users'));
+    }
+    public function n30()
+    {
+        $items = ['Первый', 'Второй', 'Третий', 'Четвертый', 'Пятый'];
+        return view('user.30', compact('items'));
+    }
+    public function n31()
+    {
+        $items = ['Первый', 'Второй', 'Третий', 'Четвертый', 'Пятый'];
+        return view('user.31', compact('items'));
+    }
+    public function n32()
+    {
+        $items = ['Первый', 'Второй', 'Третий', 'Четвертый', 'Пятый'];
+        return view('user.32', compact('items'));
+    }
+    public function n33()
+    {
+        $numbers = [10, 20, 30, 40, 50, 60];
+        return view('user.33', compact('numbers'));
+    }
+    public function n34()
+    {
+        $numbers = [5, 8, 3, 0, 7, 2, 9];
+        return view('user.34', compact('numbers'));
+    }
+    public function n35()
+    {
+        $numbers = [5, 0, 8, 3, 0, 7, 2, 0, 9];
+        return view('user.35', compact('numbers'));
+    }
+    public function n36()
+    {
+        return view('user.36');
+    }
 }
